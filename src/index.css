@@ -21,3 +21,55 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .navbar {
+      flex-direction: column;
+  }
+
+  .navbar a {
+      padding: 10px 0;
+      display: block;
+      text-align: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+      padding: 20px;
+      font-size: 16px;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .container {
+      padding: 30px;
+      font-size: 18px;
+  }
+
+  .grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      padding: 40px;
+      font-size: 20px;
+  }
+
+  .grid {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
