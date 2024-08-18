@@ -7,42 +7,18 @@ html, body {
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: auto;
 }
-
 .content {
-  flex: 1;
+  flex: 1; 
 }
-
 footer {
-  background-color:wheat;
-  color: black; 
+  background-color: wheat;
+  color: black;
   text-align: center;
-  padding: 10px;
-}
-
-@media (max-width: 600px) {
-  .container {
-      padding: 10px;
-      font-size: 14px;
-  }
-
-  .navbar {
-      flex-direction: column;
-  }
-
-  .navbar a {
-      padding: 10px 0;
-      display: block;
-      text-align: center;
-  }
-}
-@media (min-width:320px){
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+  padding: 5px;
+  position: fixed ;
+  width: 100%;
 }
 
 @media (min-width:480px){}

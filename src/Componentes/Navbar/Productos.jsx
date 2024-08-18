@@ -18,6 +18,7 @@ function Productos() {
                     <img src={product.img} alt={product.name} />
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
+                    <button onClick={() => handleBuyClick(product)} className="buy-button">Comprar</button>
                 </div>
             ))}
         </div>
