@@ -9,13 +9,16 @@
 .product-item {
     border: 1px solid black;
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    width: 300px;
+    width: 250px;
+    height: auto;
+    
 }
 
 .product-item img {
-    width: 100%;
+    width: 200px;
     border-radius: auto;
-    height: 100vh;
+    height: auto;
+    padding: 10px;
 }

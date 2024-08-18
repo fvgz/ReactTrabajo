@@ -27,12 +27,13 @@
 .container2 {
     text-align: center;
     border: 3px solid;
-    border-color: black;
-    border-radius: 3px; 
-    padding: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    justify-content: center     
+    background-color:wheat;
+    border-color: wheat;
+    border-radius: 10px;
+    padding-bottom: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;    
 }
 .social-link {
     color: black ;
@@ -46,7 +47,6 @@
 }
 .recuadroenrec{
     border: 2px solid;
-    border-color: black;
     list-style-type: none;
     margin: 25px;
     padding: 5px;

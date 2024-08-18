@@ -17,9 +17,6 @@ function Home() {
                     <ul>Muchas gracias por su atención. Estoy segura de que GinebraMakeup será su lugar favorito para todas sus necesidades de maquillaje y belleza</ul>
                 </p>
             </div>
-            <div>
-            <img src='imagenhome.jpg'/>
-            </div>
         </>
     )
 }
